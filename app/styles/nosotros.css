@@ -1,0 +1,14 @@
+.nosotros .contenido {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    text-align: justify;
+}
+
+@media (min-width: 768px) {
+    .nosotros .contenido {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+        align-items: center;
+    }
+}

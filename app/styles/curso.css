@@ -1,0 +1,21 @@
+.curso {
+  padding: 4rem 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .curso .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .curso .contenido {
+    grid-column: 2 / 3;
+  }
+}
+
+.curso .contenido {
+  color: var(--white);
+}
